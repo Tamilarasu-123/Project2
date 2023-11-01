@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Built-By: SSLTP11496
+Build-Jdk: 17.0.9
+Main-Class: mypkg.MyClass
+Created-By: Maven Integration for Eclipse
+
