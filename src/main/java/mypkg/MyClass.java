@@ -7,6 +7,9 @@ public class MyClass {
 	public int square(int s) {
 		return(s*s);
 	}
+	public double triangle(double r) {
+		return (3.14 * r * r);
+	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -21,7 +24,7 @@ public class MyClass {
 		System.out.println("Area of Reactangle is :"+ ob.areaReactangle(l, b));
 		
 		System.out.println("Area of Square is :"+ ob.square(10));		
-
+		System.out.println("Area of Triangle is :"+ ob.triangle(10));	
 	}
 
 }
