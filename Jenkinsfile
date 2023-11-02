@@ -24,6 +24,11 @@ steps{
 bat 'mvn install'
 }
 }
+stage('Maven Test'){
+steps{
+bat 'mvn test'
+}
+}
 stage('Final Build Steps'){
 steps{
 echo 'Build Done'
