@@ -10,6 +10,10 @@ public class MyClass {
 	public double triangle(double r) {
 		return (3.14 * r * r);
 	}
+	public int circle(int d) {
+		return(2*d);
+	}
+	
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -25,6 +29,8 @@ public class MyClass {
 		
 		System.out.println("Area of Square is :"+ ob.square(10));		
 		System.out.println("Area of Triangle is :"+ ob.triangle(10));	
+		System.out.println("Area of circle is :"+ ob.circle(100));	
+
 	}
 
 }
